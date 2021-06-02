@@ -95,6 +95,8 @@ You can interactively change the timestep or the layer number by using the radio
 [ ] I need to check and see if this will trigger a rebuild of the container on docker hub.
 
 
+## Additional instructions from the original chrome-docker developer
+
 **Note**: The macOS VNC client will not be able to login unless you set a
 password for the VNC server. The instructions for setting a VNC password can be
 found below.
