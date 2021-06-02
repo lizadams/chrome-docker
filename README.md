@@ -38,7 +38,7 @@ docker pull lizadams/verdi_2.1
 ## How do I run the container?
 First, start the container and its VNC server:
 ```
-docker run -p 5900:5900 --name chrome --user apps --privileged lizadams/verdi_2.1
+docker run -p 5900:5900 --name verdi_2.1 --user apps --privileged lizadams/verdi_2.1
 ```
 
 ## How do I connect to the container?
