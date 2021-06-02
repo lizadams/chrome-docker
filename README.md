@@ -1,4 +1,4 @@
-# VERDI_2.1 Docker (unmaintained)
+# VERDI_2.1 Docker
 A Docker image that can run Google Chrome and VERDI_2.1
 
 Both Chrome and VERDI require an X11 Display.
