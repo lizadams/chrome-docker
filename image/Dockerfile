@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-COPY VERDI_2.1_linux64_20210526.tar.gz /tmp/
+ADD https://github.com/lizadams/chrome-docker/releases/download/v_2.1/VERDI_2.1_linux64_20210526.tar.gz /tmp/
 
 RUN tar -xvf /tmp/VERDI_2.1_linux64_20210526.tar.gz
 RUN rm /tmp/VERDI_2.1_linux64_20210526.tar.gz
@@ -10,6 +10,7 @@ RUN apt-get update && apt-get clean && apt-get install -y \
     xvfb \
     fluxbox \
     wmctrl \
+    csh \
     wget \
     && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
     && echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list \
