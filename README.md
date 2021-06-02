@@ -13,7 +13,7 @@ virtual display running in the container.
 Refer to the [building documentation](docs/building).
 
 ```
-git pull https://github.com/lizadams/chrome-docker.git
+git pull https://github.com/lizadams/verdi_2.1-docker.git
 cd image
 docker build -t lizadams/verdi_2.1 .
 ```
