@@ -9,11 +9,11 @@ This code was forked from https://github.com/stephen-fox/chrome-docker
 The Docker image includes a VNC server which provides graphical access to the
 virtual display running in the container.
 
-## How do I build it?
+## How do I build it? - Note it is available in Dockerhub, see below.
 Refer to the [building documentation](docs/building).
 
 ```
-git pull 
+git pull https://github.com/lizadams/chrome-docker.git
 cd image
 docker build -t lizadams/verdi_2.1 .
 ```
