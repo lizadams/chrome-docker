@@ -47,12 +47,17 @@ You may need to save the dmg, then use finder to open it, and give permission to
 Open Chicken of the Sea VNC.
 Click on Connection > New Connection
 The default is to connect to localhost
+
 <img width="450" alt="chicken_of_sea_VNC_Connection" src="https://user-images.githubusercontent.com/1183863/120556432-7fcec700-c3ca-11eb-8f81-0c704952d276.png">
+
 Click on connect.
 You will see a new window with the flux icon.
+
 <img width="799" alt="flux_icon" src="https://user-images.githubusercontent.com/1183863/120556551-a4c33a00-c3ca-11eb-9243-62f2178f03e8.png">
+
 Right Click on the new fluxbox window
 Select Applications > Shells > Bash
+
 <img width="792" alt="fluxbox_app_shell_bash" src="https://user-images.githubusercontent.com/1183863/120556647-c7555300-c3ca-11eb-85e9-11796334f358.png">
 
 Using the bash terminal change directories to the VERDI_2.1 then run the verdi.sh script
