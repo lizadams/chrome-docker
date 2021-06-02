@@ -53,7 +53,7 @@ The default is to connect to localhost
 <img width="450" alt="chicken_of_sea_VNC_Connection" src="https://user-images.githubusercontent.com/1183863/120556432-7fcec700-c3ca-11eb-8f81-0c704952d276.png">
 
 Click on connect.
-You will see a new window with the flux icon.
+You will see a new window with the fluxbox icon.
 
 <img width="799" alt="flux_icon" src="https://user-images.githubusercontent.com/1183863/120556551-a4c33a00-c3ca-11eb-9243-62f2178f03e8.png">
 
