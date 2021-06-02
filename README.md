@@ -13,6 +13,7 @@ virtual display running in the container.
 Refer to the [building documentation](docs/building).
 
 ```
+git pull 
 cd image
 docker build -t lizadams/verdi_2.1 .
 ```
