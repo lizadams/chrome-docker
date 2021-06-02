@@ -1,11 +1,9 @@
-# Chrome Docker (unmaintained)
-A Docker image that can run Google Chrome.
+# VERDI_2.1 Docker (unmaintained)
+A Docker image that can run Google Chrome and VERDI_2.1
 
-Please note, this project is no longer maintained. I am currently focused on
-other projects, and do not have the required time to support this. Pease feel
-free to fork it.
+Both Chrome and VERDI require an X11 Display.
 
-Thank you for using it. I hope that it helped :)
+This code was forked from https://github.com/stephen-fox/chrome-docker
 
 ## How does it work?
 The Docker image includes a VNC server which provides graphical access to the
