@@ -20,7 +20,9 @@ docker build -t lizadams/verdi_2.1 .
 
 ## How did I push it to docker hub
 Created a docker hub repository lizadams/verdi_2.1 on https://hub.docker.com/
+
 Linked to my github account
+
 After building the above image locally, I then pushed it to the docker hub.
 
 ```
