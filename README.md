@@ -12,7 +12,7 @@ virtual display running in the container.
 ## How do I build it? - Note it is available in Dockerhub, see below.
 Refer to the [building documentation](docs/building).
 
-### First install docker
+### First install docker, start, and test using hellow-world
 ```
 sudo yum install docker
 sudo systemctl start docker
