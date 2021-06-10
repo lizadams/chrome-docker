@@ -44,27 +44,14 @@ yum search xauth
 sudo yum install xorg-x11-xauth.x86_64
 ```
 
-## How did I push it to docker hub
-Created a docker hub repository lizadams/verdi_2.1 on https://hub.docker.com/
-
-Linked to my github account
-
-After building the above image locally, I then pushed it to the docker hub.
-
-```
-docker push lizadams/verdi_2.1
-```
-
-## How do I obtain the container from dockerhub
-
-```
-docker pull lizadams/verdi_2.1
-```
-
 ## How do I run the container?
-First, start the container and its VNC server:
+
+First, start an xterm and display back to your local macine
+xterm &
+
+Then, using your local xterm, start the container and its VNC server:
 ```
-docker run -p 5900:5900 --name verdi_2.1 --user apps --privileged lizadams/verdi_2.1
+docker run -p 5900:5900 --name verdi_2.1 --user apps lizadams/verdi_2.1
 ```
 
 ## How do I connect to the container?
@@ -158,3 +145,20 @@ run the container on a non-firewalled host.
 
 Some applications (such as Google Chrome) will not run under the root user. A
 non-root user named `apps` is included for such scenarios.
+
+## How did I push it to docker hub
+Created a docker hub repository lizadams/verdi_2.1 on https://hub.docker.com/
+
+Linked to my github account
+
+After building the above image locally, I then pushed it to the docker hub.
+
+```
+docker push lizadams/verdi_2.1
+```
+
+## How do I obtain the container from dockerhub
+
+```
+docker pull lizadams/verdi_2.1
+```
