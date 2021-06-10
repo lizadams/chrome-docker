@@ -13,6 +13,8 @@ virtual display running in the container.
 Refer to the [building documentation](docs/building).
 
 ### First install docker, start, and test using hellow-world
+https://docs.docker.com/engine/install/centos/
+
 ```
 sudo yum install docker
 sudo systemctl start docker
