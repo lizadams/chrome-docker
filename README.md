@@ -15,6 +15,8 @@ Refer to the [building documentation](docs/building).
 ### First install docker
 ```
 sudo yum install docker
+sudo systemctl start docker
+sudo docker run hello-world
 ```
 
 ### Now run docker build
