@@ -12,6 +12,12 @@ virtual display running in the container.
 ## How do I build it? - Note it is available in Dockerhub, see below.
 Refer to the [building documentation](docs/building).
 
+### First install docker
+```
+sudo yum install docker
+```
+
+### Now run docker build
 ```
 git clone https://github.com/lizadams/verdi_2.1-docker.git
 cd verdi_2.1-docker/image
