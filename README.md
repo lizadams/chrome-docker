@@ -14,7 +14,7 @@ Refer to the [building documentation](docs/building).
 
 ```
 git clone https://github.com/lizadams/verdi_2.1-docker.git
-cd image
+cd verdi_2.1-docker/image
 docker build -t lizadams/verdi_2.1 .
 ```
 
