@@ -37,6 +37,13 @@ cd verdi_2.1-docker/image
 docker build -t lizadams/verdi_2.1 .
 ```
 
+### install xauth on Amazon AWS Instance
+https://aws.amazon.com/blogs/compute/how-to-enable-x11-forwarding-from-red-hat-enterprise-linux-rhel-amazon-linux-suse-linux-ubuntu-server-to-support-gui-based-installations-from-amazon-ec2/
+```
+yum search xauth
+sudo yum install xorg-x11-xauth.x86_64
+```
+
 ## How did I push it to docker hub
 Created a docker hub repository lizadams/verdi_2.1 on https://hub.docker.com/
 
