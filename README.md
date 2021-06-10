@@ -21,6 +21,15 @@ sudo systemctl start docker
 sudo docker run hello-world
 ```
 
+### To run docker without using sudo add a docker group and add your user name to that group and restart docker
+
+```
+sudo groupadd docker
+sudo usermod -aG docker centos
+sudo systemctl restart docker
+docker run hello-world
+```
+
 ### Now run docker build
 ```
 git clone https://github.com/lizadams/verdi_2.1-docker.git
